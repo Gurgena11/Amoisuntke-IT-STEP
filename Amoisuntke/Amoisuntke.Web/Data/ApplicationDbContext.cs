@@ -28,7 +28,9 @@ namespace Amoisuntke.Web.Data
                         IsSecured = true,
                         Quantity = 5,
                         Splash = 36,
-                        Tank = 30
+                        Tank = 30,
+                        IsAroma = false,
+                        IsHumidifier = true,
                     },
 
                     new Product
@@ -45,7 +47,9 @@ namespace Amoisuntke.Web.Data
                         IsSecured = true,
                         Quantity = 5,
                         Splash = 36,
-                        Tank = 30
+                        Tank = 30,
+                        IsAroma = false,
+                        IsHumidifier = true
                     },
 
                     new Product
@@ -62,7 +66,9 @@ namespace Amoisuntke.Web.Data
                         IsSecured = false,
                         Quantity = 15,
                         Splash = 10,
-                        Tank = 0
+                        Tank = 0,
+                        IsAroma = true,
+                        IsHumidifier = false
                     }
                 );
         }
