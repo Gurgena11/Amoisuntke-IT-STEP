@@ -39,5 +39,10 @@ namespace Amoisuntke.Web.Models
         public int Splash { get; set; }
         [DisplayName("დაფარვის არეალი")]
         public int Coverage { get; set; }
+        [DisplayName("არის თუ არა არომატი?")]
+        public bool IsAroma { get; set; }
+        [Required]
+        [DisplayName("არის თუ არა ჰაერის დამატენიანებელი?")]
+        public bool IsHumidifier { get; set; }
     }
 }

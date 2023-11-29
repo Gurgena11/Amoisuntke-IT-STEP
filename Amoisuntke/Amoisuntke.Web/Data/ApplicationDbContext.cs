@@ -17,7 +17,7 @@ namespace Amoisuntke.Web.Data
                     new Product
                     {
                         Id = 1,
-                        Name = "ვულკანის ჰაერის დამატენიანებელი",
+                        Name = "ვულკანის ფორმის ჰაერის დამატენიანებელი",
                         Description = "ყოველდღიურ სტრესთან საბრძოლველად საჭიროა გვქონდეს ადგილი სადაც განიტვირთებით, ეს მოწყობილობა დაგეხმარებათ თქვენი გარემო მეტად მყუდრო და სასიამოვნო გახადოთ",
                         Color = "White",
                         Price = 185,
@@ -28,24 +28,29 @@ namespace Amoisuntke.Web.Data
                         IsSecured = true,
                         Quantity = 5,
                         Splash = 36,
-                        Tank = 30
+                        Tank = 30,
+                        IsAroma = false,
+                        IsHumidifier = true
                     },
 
                     new Product
                     {
                         Id = 2,
-                        Name = "ჰაერის დამატენიანებელი",
+                        Name = "მანქანის ჰაერის დამატენიანებელი",
                         Description = "ყოველდღიურ სტრესთან საბრძოლველად საჭიროა გვქონდეს ადგილი სადაც განიტვირთებით, ეს მოწყობილობა დაგეხმარებათ თქვენი გარემო მეტად მყუდრო და სასიამოვნო გახადოთ",
-                        Color = "Blue",
-                        Price = 185,
-                        DiscountPrice = 125,
-                        Coverage = 360,
+                        Color = "grey",
+                        Price = 85,
+                        DiscountPrice = 50,
+                        Coverage = 260,
                         ImageUrl = null,
                         IsExpired = false,
                         IsSecured = true,
                         Quantity = 5,
-                        Splash = 36,
-                        Tank = 30
+                        Splash = 26,
+                        Tank = 20,
+                        IsAroma = false,
+                        IsHumidifier=true
+
                     },
 
                     new Product
@@ -61,8 +66,10 @@ namespace Amoisuntke.Web.Data
                         IsExpired = false,
                         IsSecured = false,
                         Quantity = 15,
-                        Splash = 10,
-                        Tank = 0
+                        Splash = 0,
+                        Tank = 0,
+                        IsAroma = true,
+                        IsHumidifier = false
                     }
                 );
         }
