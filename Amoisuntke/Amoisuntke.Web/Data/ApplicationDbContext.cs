@@ -46,11 +46,8 @@ namespace Amoisuntke.Web.Data
                         IsExpired = false,
                         IsSecured = true,
                         Quantity = 5,
-                        Splash = 26,
-                        Tank = 20,
-                        IsAroma = false,
-                        IsHumidifier=true
-
+                        Splash = 36,
+                        Tank = 30
                     },
 
                     new Product
@@ -66,10 +63,8 @@ namespace Amoisuntke.Web.Data
                         IsExpired = false,
                         IsSecured = false,
                         Quantity = 15,
-                        Splash = 0,
-                        Tank = 0,
-                        IsAroma = true,
-                        IsHumidifier = false
+                        Splash = 10,
+                        Tank = 0
                     }
                 );
         }
